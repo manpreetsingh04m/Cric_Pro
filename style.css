@@ -1,1 +1,141 @@
-/* Type your code here */
+
+body {
+    background-image:url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+  }
+#logo{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  margin-top: 25px;
+}
+.heading{
+  letter-spacing: 2px;
+  font-weight: bold;
+  inline-size: auto;
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+.heading h1{
+  font-size: 40px;
+}
+.heading h4{
+  font-size: 17px;
+  color: grey;
+}
+.container{
+  /* display: flex;
+  flex-direction: column; */
+  width: 865px;
+  height: 400px;
+  border-collapse: collapse;
+  background-color: white;
+  margin-top: 30px;
+  font-size: 16px;
+  margin-left: 30px;
+  box-shadow: 3px 3px 3px 3px grey;
+  /* border: 1px solid black; */
+}
+.container th{
+  background-color: #F05033;
+}
+.text1{
+  text-align: left;
+  color: white;
+}
+.text2{
+  text-align: right;
+  color: white;
+}
+.container tr,td{
+  height: 30px;
+}
+  .rows {
+   border-top: 1px solid #BEBEBE;
+}
+.footer{
+  margin-top: 60px;
+}
+.light{
+  color: #BEBEBE;
+}
+.name{
+  color: #2C81ED;
+  cursor: pointer;
+}
+/* SehWag  */
+#sehwag{
+position: absolute;
+top: 327px;
+left: 50px;
+}
+/* sachin */
+#sachin{
+  position: absolute;
+  top: 365px;
+  left: 50px;
+}
+/* gambhir */
+#gambhir{
+  position: absolute;
+  top: 403px;
+  left: 50px;
+}
+/* kolhi */
+#kolhi{
+  position: absolute;
+  top: 439px;
+  left: 29px;
+}
+/* Dhoni */
+#Dhoni{
+  position: absolute;
+  top: 476px;
+  left: 50px;
+}
+/* yuvraj */
+#yuvraj{
+  position: absolute;
+  top: 512px;
+  left: 40px;
+  display: none;
+}
+/* Suresh */
+#Suresh{
+  position: absolute;
+  top: 652px;
+  left: 222px;
+}
+/* singh */
+#singh{
+  position: absolute;
+  top: 652px;
+  left: 325px;
+}
+/* khan */
+#khan{
+  position: absolute;
+  top: 652px;
+  left: 433px;
+}
+/* Patel */
+#Patel{
+  position: absolute;
+  top: 645px;
+  left: 525px;
+  
+}
+/* shreeknth */
+#ss {
+  position: absolute;
+  top: 642px;
+  left: 613px;
+}
+.img{
+  display: none;
+}
+
