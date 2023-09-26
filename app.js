@@ -20,7 +20,7 @@ var mun=document.getElementById("mun")
 var har=document.getElementById("har")
 var sree=document.getElementById("sree")
 var zah=document.getElementById("zah")
-
+// Virender Sehwag
 function showimage(){
   sehwag.style.display='block';
 }
@@ -29,7 +29,9 @@ function hideimage() {
 }
 seh.addEventListener('click',showimage)
 
-sehwag.addEventListener("mouseleave",hideimage)
+document.body.addEventListener("mousedown",hideimage)
+// Sachin Tendulkar
+
 function showimage1(){
   sachin.style.display='block';
 }
@@ -38,7 +40,8 @@ function hideimage1() {
 }
 ten.addEventListener('click',showimage1)
 
-sachin.addEventListener("mouseleave",hideimage1)
+document.body.addEventListener("mousedown",hideimage1)
+// Gautam Gambhir
 function showimage2(){
   gambhir.style.display='block';
 }
@@ -47,7 +50,8 @@ function hideimage2() {
 }
 gau.addEventListener('click',showimage2)
 
-gambhir.addEventListener("mouseleave",hideimage2)
+document.body.addEventListener("mousedown",hideimage2)
+// Virat Kohli
 function showimage3(){
   kolhi.style.display='block';
 }
@@ -56,8 +60,8 @@ function hideimage3() {
 }
 vir.addEventListener('click',showimage3)
 
-kolhi.addEventListener("mouseleave",hideimage3)
-
+document.body.addEventListener("mousedown",hideimage3)
+// MS Dhoni
 function showimage4(){
   Dhoni.style.display='block';
 }
@@ -66,8 +70,8 @@ function hideimage4() {
 }
 dho.addEventListener('click',showimage4)
 
-Dhoni.addEventListener("mouseleave",hideimage4)
-
+document.body.addEventListener("mousedown",hideimage4)
+// Yuvraj Singh
 function showimage5(){
   yuvraj.style.display='block';
 }
@@ -76,8 +80,8 @@ function hideimage5() {
 }
 yuv.addEventListener('click',showimage5)
 
-yuvraj.addEventListener("mouseleave",hideimage5)
-
+document.body.addEventListener("mousedown",hideimage5)
+// Suresh Raina
 function showimage6(){
   Suresh.style.display='block';
 }
@@ -86,8 +90,8 @@ function hideimage6() {
 }
 sur.addEventListener('click',showimage6)
 
-Suresh.addEventListener("mouseleave",hideimage6)
-
+document.body.addEventListener("mousedown",hideimage6)
+// Harbhajan Singh
 function showimage7(){
   singh.style.display='block';
 }
@@ -96,8 +100,8 @@ function hideimage7() {
 }
 har.addEventListener('click',showimage7)
 
-singh.addEventListener("mouseleave",hideimage7)
-
+document.body.addEventListener("mousedown",hideimage7)
+// Zaheer Khan
 function showimage8(){
   khan.style.display='block';
 }
@@ -106,8 +110,8 @@ function hideimage8() {
 }
 zah.addEventListener('click',showimage8)
 
-khan.addEventListener("mouseleave",hideimage8)
-
+document.body.addEventListener("mousedown",hideimage8)
+// Munaf Patel
 function showimage9(){
   Patel.style.display='block';
 }
@@ -116,8 +120,9 @@ function hideimage9() {
 }
 mun.addEventListener('click',showimage9)
 
-Patel.addEventListener("mouseleave",hideimage9)
+document.body.addEventListener("mousedown",hideimage9)
 
+// S Sreesanth
 function showimage10(){
   ss.style.display='block';
 }
@@ -126,4 +131,4 @@ function hideimage10() {
 }
 sree.addEventListener('click',showimage10)
 
-ss.addEventListener("mouseleave",hideimage10)
+document.body.addEventListener("mousedown",hideimage10)
