@@ -23,9 +23,11 @@ var zah=document.getElementById("zah")
 // Virender Sehwag
 function showimage(){
   sehwag.style.display='block';
+
 }
 function hideimage() {
   sehwag.style.display='none';
+  
 }
 seh.addEventListener('click',showimage)
 
